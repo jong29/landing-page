@@ -1,4 +1,18 @@
+body {
+    background-color: #1F2937;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
 img {
     height: 500px;
     width: 700px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
 }
