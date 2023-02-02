@@ -9,6 +9,24 @@ img {
     width: 700px;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    font-size: 16px;
+    color: #f9faf8;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
