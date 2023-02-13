@@ -126,6 +126,42 @@ h2 {
     display: flex;
 }
 
+.cta-cont {
+    width: 1000px;
+    height: 150px;
+    background-color: #3882f6;
+    margin: 100px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-text {
+    color: #f9faf8
+}
+
+.cta-bold {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.cta-sub {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+button {
+    height: 32px;
+    width: 100px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
 .copyright {
-    margin: 32px;
+    margin: 40px;
 }
