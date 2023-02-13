@@ -43,6 +43,12 @@ h1 {
     margin-bottom: 5px;
 }
 
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
 .header-logo {
     font-size: 24px;
     font-weight: 800;
@@ -52,9 +58,23 @@ h1 {
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
+}
+
+.quote-container {
     font-size: 36px;
-    font-weight: light;
     font-style: italic;
+    width: 830px;
+    margin: auto;
+    padding: 100px;
+    font-weight: 100;
+}
+
+.quote-author {
+    padding-right: 50px;
+    text-align: end;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .hero {
@@ -96,11 +116,16 @@ h1 {
 
 .info {
     text-align: center;
-    margin: 0 auto;
+    margin: 72px auto;
     max-width: 1000px;
 }
 
 .info-cards {
+    margin-top: 72px;
+    margin-bottom: 100px;
     display: flex;
 }
 
+.copyright {
+    margin: 32px;
+}
